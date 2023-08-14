@@ -1,0 +1,137 @@
+h1{
+    color:rgb(108, 180, 228);
+    font-size: 30px;
+    text-align: center;
+}
+
+label{
+    color:white;
+    font-size: medium;
+    text-align: center;
+    
+}
+button{
+  text-align: center;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 248, 248),rgb(11, 231, 243));
+    
+    background-size: cover;
+    background-position:left;
+    position: relative;
+
+}
+
+.form-box{
+    width: 70%;
+   max-width: 250px;
+   top: 40%;
+   left: 70%;
+   text-align: center;
+   position:absolute;
+   transform: translate(-50%,-50%);
+   padding: 1px 1px -2px;
+   background: white;
+   border-color: blue;
+   border-radius: 20px;
+   
+
+
+}
+.input-field{
+background: #9bebe7;
+margin: 15px 0;
+max-height: 65px;
+border-radius: 50px;
+    }
+input{
+    width: 90%;
+    background: transparent;
+    border:0;
+    outline: 0;
+    padding: 10px;
+    flex-basis: 48%;
+   
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+
+}
+form p a{
+    text-decoration:none;
+    color: blue;
+}
+.btn-field{
+    width: 50%;
+    display: flex;
+  
+    
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: rgb(9, 241, 210);
+    color: beige;
+    height: 40px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.btn-field button .disable{
+background:#eaeaea;
+color: #555;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(253, 246, 246, 0.959),rgb(0, 10, 10));
+    
+}
+.navbar{
+    font-size: 16px;
+    color: rgb(19, 127, 134);
+    font-weight: 500;
+    margin-right: 30px;
+
+}
+.navbar a{
+    font-size: 16px;
+    color: rgb(38, 245, 217);
+    font-weight: 500;
+    margin-right: 30px;
+   
+
+}
+.form-box2{
+    width: 100%;
+   max-width: 450px;
+   top: 60%;
+   left: 30%;
+   text-align: left;
+   position:absolute;
+   transform: translate(-50%,-50%);
+   padding: 1px 1px -2px;
+   background: cyan;
+   border-color: blue;
+   border-radius: 20px;
+   
+   
+}
+.form-box2 h1{
+    color: black;
+}
+
+.form-box2 .btn-field button{
+    color: black;
+}
